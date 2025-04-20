@@ -36,13 +36,11 @@ Roostoo Trading Bot combines technical analysis with machine learning to identif
 
 ```
 roostoo_trading_bot_ml/
-├── trading_bot.py            # Main trading bot implementation
-├── train_model.py            # LSTM model training script
-├── crypto_lstm_model.h5      # Pretrained LSTM model
-├── predicted_prices.csv      # Sample price predictions
-├── BTC-2021min.csv           # Sample training data
-├── trade_data.json           # Trade history storage
-└── README.md                 # This documentation
+├── trading_bot.py            
+├── btc_lstm_price_prediction.py
+├── BTC-2021min.csv         
+├── saved_train_model.py
+└── README.md                 
 ```
 
 ## ⚙️ Configuration
