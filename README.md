@@ -37,7 +37,7 @@ Roostoo Trading Bot combines technical analysis with machine learning to identif
 ```
 roostoo_trading_bot_ml/
 ├── trading_bot.py            
-├── btc_lstm_price_prediction.py
+├── lstm_price_prediction.py
 ├── BTC-2021min.csv         
 ├── saved_train_model.py
 └── README.md                 
