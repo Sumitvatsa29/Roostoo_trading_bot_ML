@@ -8,7 +8,7 @@ A cryptocurrency trading bot leveraging Mean Reversion strategy, RSI momentum fi
 
 Roostoo Trading Bot combines technical analysis with machine learning to identify and execute potential trading opportunities in the cryptocurrency market. The system implements a hybrid approach using mean reversion principles alongside deep learning predictions to make informed trading decisions.
 
-> **⚠️ DISCLAIMER:** This bot was trained on 2021 Bitcoin price data and is configured to use a mock API (Roostoo) for demonstration purposes only It Will be not use in IEE HACKATHONS.
+> **⚠️ DISCLAIMER:** This bot was trained on 2021 Bitcoin price data and is configured to use a mock API (Roostoo) for demonstration purposes only. It also not use in IEEE HACKATHONS.
 
 ## ✨ Key Features
 
