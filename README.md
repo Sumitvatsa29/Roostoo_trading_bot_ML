@@ -8,7 +8,7 @@ A cryptocurrency trading bot leveraging Mean Reversion strategy, RSI momentum fi
 
 Roostoo Trading Bot combines technical analysis with machine learning to identify and execute potential trading opportunities in the cryptocurrency market. The system implements a hybrid approach using mean reversion principles alongside deep learning predictions to make informed trading decisions.
 
-> **⚠️ DISCLAIMER:** This bot uses a mock API (Roostoo) for demonstration purposes only. It was trained on historical 2021 Bitcoin data and should not be used for actual trading without extensive further development and testing.
+> **⚠️ DISCLAIMER:** This bot was trained on 2021 Bitcoin price data and is configured to use a mock API (Roostoo) for demonstration purposes only.
 
 ## ✨ Key Features
 
@@ -31,21 +31,6 @@ Roostoo Trading Bot combines technical analysis with machine learning to identif
   - REST API integration with authentication
   - JSON-based trade logging and history
   - Automated portfolio synchronization
-
-## 🔧 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/roostoo_trading_bot_ml.git
-cd roostoo_trading_bot_ml
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Configure your API keys in trading_bot.py
-# Run the trading bot
-python trading_bot.py
-```
 
 ## 📂 Project Structure
 
@@ -102,29 +87,17 @@ The LSTM neural network was designed to recognize patterns in cryptocurrency pri
 
 - Trained on 2021 Bitcoin historical minute-level data
 - Features engineered from price, volume, and technical indicators
-- Optimized for short-term forecasting (5-15 minute horizon)
+- Optimized for short-term forecasting
 
 ## ⚠️ Important Notes
 
 - This bot uses mock API endpoints and will not execute real trades
 - The LSTM model was trained on specific historical data only and requires retraining for current market conditions
 - Extensive backtesting is recommended before considering live trading
-- No guarantee of profitability; cryptocurrency markets are highly volatile
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🔗 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ---
 
-*Note: This project is for educational purposes only and should not be considered financial advice.*
